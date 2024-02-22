@@ -1,0 +1,91 @@
+body{
+    background-image: url(./image/wallpaper.png);
+    width: 1000px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: "Hind Siliguri", sans-serif;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    margin: 19px;
+    color: white;
+}
+
+.logo__psg{
+    margin-top: 10px;
+}
+
+form{
+    display: flex;
+    gap: 40px;
+}
+
+.entrar{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.registrar{
+    border: 2px solid rgba(255, 42, 0, 0.799);
+    padding: 12px;
+    color: white;
+    background-color: rgba(255, 42, 0, 0.799);
+    border: none;
+    font-size: 15px;
+    border-radius: 15px;
+    font-weight: bolder;   
+    cursor: pointer; 
+}
+
+main{
+    margin-top: 18%;
+}
+
+h1{
+    font-size: 70px;
+    line-height: 10px;
+}
+
+p{
+    width: 400px;
+}
+
+.materia{
+    margin-top: 20px;
+    border: 2px solid rgba(255, 42, 0, 0.799);
+    padding: 12px;
+    color: white;
+    background-color: rgba(255, 42, 0, 0.799);
+    border: none;
+    font-size: 15px;
+    border-radius: 15px;
+    font-weight: bolder;   
+    cursor: pointer; 
+}
+
+
+li:hover{
+  text-decoration: underline;
+  color: rgb(45, 120, 185);
+  transition: 0.3s all;
+}
+
+
+.menu__container{
+    display: none;
+}

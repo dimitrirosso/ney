@@ -1,0 +1,61 @@
+@media screen and (max-width: 700px) {
+
+    .logo__psg{
+        margin-left: 2.5rem;
+    }
+    
+
+    li{
+        display: none;
+    }
+
+    form{
+        display: none;
+    }
+
+    body{
+        background-image: url(./image/wallpaper.png);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    .menu{
+        display: flex;
+        gap: 16rem;
+    }
+
+    .menu__container{
+        width: 2.4rem;
+        display: block;
+        height: 2.4rem;
+        margin-top: 13px;
+        border: 0.1rem solid  rgba(255, 42, 0, 0.799);
+        background-color: rgba(255, 42, 0, 0.799);
+        border-radius: 0.3rem;
+        cursor: pointer;
+    }
+
+    .principal{
+        margin: 0 auto;
+        margin-top: 55%;
+        margin-left: 2rem;
+    }
+
+    h1{
+        font-size: 3.3rem;
+    }
+
+    p{
+        width: 20.2rem;
+    }
+
+    .materia{
+        width: 95%;
+        border-radius: 0.1rem;
+        border: 0.2rem solid rgba(218, 37, 53, 1);
+        background-color: rgba(218, 37, 53, 1);
+    }
+}
+
